@@ -1,0 +1,65 @@
+{
+    "name": "simplenighttime@foxyantho",
+    "id": "simplenighttime@foxyantho",
+    "title": "Simple Night Time",
+    "description": " Simple addon for night owl people, like me ;p",
+
+    "license": "MIT",
+    "version": "1.0.0",
+
+    "main": "index.js",
+
+    "icon": "icons/icon.png",
+
+    "preferences":
+    [
+        {
+            "name": "enabled",
+            "title": "Enabled?",
+            "type": "bool",
+            "value": false
+        },
+        {
+            "name": "style",
+            "title": "Style",
+            "type": "menulist",
+            "value": "simple",
+            "options": [
+                {
+                    "value": "simple",
+                    "label": "Simple"
+                },
+                {
+                    "value": "midnight",
+                    "label": "Midnight"
+                },
+                {
+                    "value": "midnight-alternative",
+                    "label": "Midnight Alternative"
+                },
+                {
+                    "value": "tomorrow",
+                    "label": "Tomorrow"
+                },
+                {
+                    "value": "solarized",
+                    "label": "Solarized"
+                },
+                {
+                    "value": "nightshift",
+                    "label": "NghtShift"
+                },
+                {
+                    "value": "globaldark",
+                    "label": "Global Dark"
+                },
+                {
+                    "value": "hightcontrast",
+                    "label": "Hight Contrast"
+                }
+            ]
+        }
+    ]
+
+
+}
