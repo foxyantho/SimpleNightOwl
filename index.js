@@ -1,29 +1,48 @@
 
 var self = require("sdk/self");
+
 var { ToggleButton } = require("sdk/ui/button/toggle");
+
+var prefs = require('sdk/simple-prefs');
+var setting = prefs.prefs;
+
+
+
+function d(x){console.log(x);}
 
 
 
 var button = ToggleButton({
     id: "simplenighttime-button",
     label: "my button",
-
     icon: "./icons/svg/sunny-day.svg",
-    onChange: changed
+    onChange: buttonChange
 });
 
-function changed(state) {
-  button.badge = state.badge + 1;
-  if (state.checked) {
-    button.badgeColor = "#AA00AA";
-  }
-  else {
-    button.badgeColor = "#00AAAA";
-  }
-  console.log(state);
+
+function buttonChange(state)
+{
+    if (state.checked) {
+        console.log(state);
+    }
+}
+
+function applyTheme()
+{
+
 }
 
 
-setToolbarIcon(config.addon.state);
+
+function prefsEnabled( key )
+{
+    button.state('window', { checked: setting[key] }); //bool
+}
+
+prefs.on("enabled", prefsEnabled);
+
+
+
+
 
 
