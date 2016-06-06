@@ -8,6 +8,7 @@
         <em:type>2</em:type>
         <em:unpack>false</em:unpack>
         <em:version>1.0.0</em:version>
+        <em:multiprocessCompatible>true</em:multiprocessCompatible>
 
         <em:name>Simple Night Time</em:name>
         <em:description>Simple addon for night owl people, like me ;p</em:description>
