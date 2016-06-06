@@ -27,10 +27,10 @@
             "value": false
         },
         {
-            "name": "style",
-            "title": "Style",
+            "name": "theme",
+            "title": "Theme",
             "type": "menulist",
-            "value": "simple",
+            "value": "midnight",
             "options": [
                 {
                     "value": "simple",
