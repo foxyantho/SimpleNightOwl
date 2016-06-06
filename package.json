@@ -16,6 +16,8 @@
 
     "main": "index.js",
 
+    "permissions": {"private-browsing": true},
+
     "icon": "icons/icon.png",
 
     "preferences":
