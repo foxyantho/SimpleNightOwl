@@ -7,6 +7,13 @@
     "license": "MIT",
     "version": "1.0.0",
 
+    "engines": {
+        "firefox": ">=38.0a1"
+    },
+    "keywords": [
+        "jetpack"
+    ],
+
     "main": "index.js",
 
     "icon": "icons/icon.png",
