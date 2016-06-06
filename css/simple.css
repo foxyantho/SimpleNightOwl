@@ -1,0 +1,10 @@
+html * {
+    background-color: #000 ! important;
+    color: #eeeeee !important
+}
+:link, :link * {
+    color: #66FF33 !important
+}
+:visited, :visited * {
+    color: #00A300 !important
+}
