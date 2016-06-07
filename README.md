@@ -1,12 +1,22 @@
+
 # SimpleNightTime
-Simple addon for night own people, like me ;p 
+
+
+Simple addon for night-owl people, like me.
+
+Contain 7 differrent style for your pleased tired eyes :D
+
+
+ps:
+- You must disable the night-mode before changing theme,
+then new theme will only apply on the next reloading of the page.
 
 
 
 Icons :
 -------
 
-"Sunny Day", "Half Moon" & "Cloud with sun" icons by [Amit Jakhu](http://www.flaticon.com/authors/amit-jakhu) *( CC-BY licence )*
+"Sunny Day", "Half Moon" & "Cloud with sun" by [Amit Jakhu](http://www.flaticon.com/authors/amit-jakhu) *( CC-BY licence )*
 
 
 Styles :
@@ -23,3 +33,9 @@ Styles :
 - [Tomorrow](https://userstyles.org/styles/118481/) by Hafiz Shafruddin ( public-domain )
 
 - [Solarized](https://userstyles.org/styles/98305/) by thedude ( public-domain )
+
+
+Licence :
+---------
+
+Addon licenced under MIT.
