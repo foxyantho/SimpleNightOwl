@@ -54,7 +54,7 @@ var config =
 
 if( config.enabled )
 {
-    button.state('window', { checked: true });
+    button.check();
 
     applyTheme();
 }
