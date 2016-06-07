@@ -2,7 +2,7 @@
     "name": "simplenighttime@foxyantho",
     "id": "simplenighttime@foxyantho",
     "title": "Simple Night Time",
-    "description": " Simple addon for night owl people, like me ;p",
+    "description": " Simple addon for night owl people, like me ;p ps: You must disable the night-mode before changing theme.",
 
     "license": "MIT",
     "version": "1.0.0",
