@@ -18,7 +18,7 @@ function Button()
     {
         id: 'simplenighttime-button',
         label: 'Enable/disable night theme',
-        icon: './icons/svg/sunny-day.svg',
+        icon: './icons/sunny-day.svg',
         onChange: buttonChange
     });
 }
@@ -30,13 +30,13 @@ Button.prototype =
     {
         this.button.label = 'Disable night theme',
 
-        this.button.icon = './icons/svg/half-moon.svg';
+        this.button.icon = './icons/half-moon.svg';
     },
     uncheck: function()
     {
         this.button.label = 'Enable night theme',
 
-        this.button.icon = './icons/svg/sunny-day.svg';
+        this.button.icon = './icons/sunny-day.svg';
     }
 }
 
