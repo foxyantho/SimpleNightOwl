@@ -7,9 +7,7 @@ var prefs = require('sdk/simple-prefs');
 var data = require('sdk/self').data;
 
 
-
 var page;
-
 
 
 function Button()
@@ -103,36 +101,12 @@ function applyTheme()
         contentStyleFile: './css/' + config.theme + '.css'
     });
 
-    console.log("page mod on");
+    //console.log("page mod on");
 }
 
 function removeTheme()
 {
     page.destroy();
 
-    console.log("page mod off");
+    //console.log("page mod off");
 }
-
-
-
-/*
-Old low-level API :
-
-var { Cc, Ci } = require("chrome"),
-    nsIIOService = Cc["@mozilla.org/network/io-service;1"].getService(Ci.nsIIOService),
-    nsIStyleSheetService = Cc["@mozilla.org/content/style-sheet-service;1"].getService(Ci.nsIStyleSheetService);
-
-var theme = nsIIOService.newURI(data.url('./css/' + __theme + '.css'), null, null);
-
-function applyTheme() {
-    if (!nsIStyleSheetService.sheetRegistered(getTheme(), nsIStyleSheetService.USER_SHEET)) {
-        nsIStyleSheetService.loadAndRegisterSheet(getTheme(), nsIStyleSheetService.USER_SHEET);
-    }
-}
-
-function removeTheme() {
-    if (nsIStyleSheetService.sheetRegistered(getTheme(), nsIStyleSheetService.USER_SHEET)) {
-        nsIStyleSheetService.unregisterSheet(getTheme(), nsIStyleSheetService.USER_SHEET);
-    }
-}
-*/
