@@ -61,10 +61,6 @@
                 {
                     "value": "globaldark",
                     "label": "Global Dark"
-                },
-                {
-                    "value": "hightcontrast",
-                    "label": "Hight Contrast"
                 }
             ]
         }

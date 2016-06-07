@@ -23,5 +23,3 @@ Styles :
 - [Tomorrow](https://userstyles.org/styles/118481/) by Hafiz Shafruddin ( public-domain )
 
 - [Solarized](https://userstyles.org/styles/98305/) by thedude ( public-domain )
-
-- [Hight Contrast](https://userstyles.org/styles/101643/) by nalljya ( CC BY-NC-ND licence )
