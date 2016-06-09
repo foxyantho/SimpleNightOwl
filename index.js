@@ -58,7 +58,10 @@ if( config.enabled )
 }
 
 
-function applyOnEnabled()
+
+// prefs change event
+
+prefs.on('enabled', function( key )
 {
     if( config.enabled )
     {
@@ -72,13 +75,22 @@ function applyOnEnabled()
 
         removeTheme();
     }
-}
+});
 
+// theme change event
 
-// prefs change event
+prefs.on('theme', function( key )
+{
+    if( config.enabled )
+    {
+        removeTheme();
 
-prefs.on('enabled', function( key ){
-    applyOnEnabled();
+        button.uncheck();
+
+        applyTheme();
+
+        button.check();
+    }
 });
 
 

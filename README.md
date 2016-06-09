@@ -7,9 +7,7 @@ Simple addon for night-owl people, like me.
 Contain 7 differrent style for your pleased tired eyes :D
 
 
-ps:
-- You must disable the night-mode before changing theme,
-then new theme will only apply on the next reloading of the page.
+note: when the theme is changed, you must reload the page to see its effetcs.
 
 
 
