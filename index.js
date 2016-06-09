@@ -29,12 +29,16 @@ Button.prototype =
         this.button.label = 'Disable night theme',
 
         this.button.icon = './icons/half-moon.svg';
+
+        this.button.checked = true;
     },
     uncheck: function()
     {
         this.button.label = 'Enable night theme',
 
         this.button.icon = './icons/sunny-day.svg';
+
+        this.button.checked = false;
     }
 }
 
