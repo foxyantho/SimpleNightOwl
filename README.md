@@ -34,3 +34,10 @@ Licence :
 ---------
 
 Addon licenced under MIT.
+
+
+
+Known bugs :
+------------
+
+- click on icon, then manually change "enabled" pref, the state of the button is "unchecked" but still appear checked.

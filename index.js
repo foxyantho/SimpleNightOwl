@@ -4,8 +4,6 @@ var { PageMod } = require('sdk/page-mod');
 
 var prefs = require('sdk/simple-prefs');
 
-var data = require('sdk/self').data;
-
 
 
 function Button()
@@ -69,15 +67,15 @@ prefs.on('enabled', function( key )
 {
     if( config.enabled )
     {
-        button.check();
-
         applyTheme();
+
+        button.check();
     }
     else
     {
-        button.uncheck();
-
         removeTheme();
+
+        button.uncheck();
     }
 });
 
@@ -94,16 +92,9 @@ prefs.on('theme', function( key )
 });
 
 
-function buttonChange(state)
+function buttonChange( state )
 {
-    if( state.checked )
-    {
-        config.enabled = true;
-    }
-    else
-    {
-        config.enabled = false;
-    }
+    config.enabled = !config.enabled;
 }
 
 function applyTheme()
