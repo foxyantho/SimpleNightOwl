@@ -7,9 +7,6 @@ Simple addon for night-owl people, like me.
 Contain 7 differrent style for your pleased tired eyes :D
 
 
-note: when the theme is changed, you must reload the page to see its effetcs.
-
-
 
 Icons :
 -------

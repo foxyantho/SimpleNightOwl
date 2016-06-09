@@ -7,8 +7,6 @@ var prefs = require('sdk/simple-prefs');
 var data = require('sdk/self').data;
 
 
-var page;
-
 
 function Button()
 {
@@ -43,6 +41,8 @@ Button.prototype =
 }
 
 var button = new Button();
+
+var page;
 
 
 var config =
@@ -89,11 +89,7 @@ prefs.on('theme', function( key )
     {
         removeTheme();
 
-        button.uncheck();
-
         applyTheme();
-
-        button.check();
     }
 });
 
@@ -114,7 +110,8 @@ function applyTheme()
 {
     page = PageMod({
         include: ['*','about:*', 'file://*'], // * -> http, https, ftp, 
-        contentStyleFile: './css/' + config.theme + '.css'
+        contentStyleFile: './css/' + config.theme + '.css',
+        attachTo: ['existing', 'top']
     });
 
     //console.log("page mod on");
