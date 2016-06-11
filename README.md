@@ -1,5 +1,5 @@
 
-# SimpleNightTime
+# SimpleNightOwl
 
 
 Simple addon for night-owl people, like me.

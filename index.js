@@ -10,7 +10,7 @@ function Button()
 {
     this.button = ToggleButton(
     {
-        id: 'simplenighttime-button',
+        id: 'simplenightowl-button',
         label: 'Enable/disable night theme',
         icon: './icons/sunny-day.svg',
         onChange: buttonChange
