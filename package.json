@@ -16,7 +16,10 @@
 
     "main": "index.js",
 
-    "permissions": {"private-browsing": true},
+    "permissions": {
+        "private-browsing": true,
+        "multiprocess": true
+    },
 
     "icon": "icon.png",
 
