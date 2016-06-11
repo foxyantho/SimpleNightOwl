@@ -1,18 +1,28 @@
 {
     "name": "simplenightowl@foxyantho",
     "id": "simplenightowl@foxyantho",
-    "title": "Simple Night Time",
-    "description": " Simple addon for night owl people, like me ;p ps: You must disable the night-mode before changing theme.",
-
+    "title": "Simple Night Owl",
+    "description": " Simple addon for night owl people. Change webpages to dark mode for tired eyes!",
+    "author": "FoxyAntho",
     "license": "MIT",
     "version": "1.0.0",
+    "homepage": "https://github.com/foxyantho/SimpleNightOwl",
 
-    "engines": {
-        "firefox": ">=38.0a1"
+    "locales":
+    {
+        "fr":
+        {
+            "description": "Simple addon pour les couche-tard. Change l'apparence des pages en version sombre."
+        }
     },
-    "keywords": [
-        "jetpack"
-    ],
+
+
+    "engines": { "firefox": ">=38.0a1" },
+
+    "keywords": [ "jetpack" ],
+
+
+    "icon": "icon.png",
 
     "main": "index.js",
 
@@ -20,8 +30,6 @@
         "private-browsing": true,
         "multiprocess": true
     },
-
-    "icon": "icon.png",
 
     "preferences":
     [
