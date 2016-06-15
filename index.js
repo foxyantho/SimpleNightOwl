@@ -22,7 +22,7 @@ Button.prototype =
 
     check: function()
     {
-        this.button.label = 'Disable night theme',
+        this.button.label = 'Disable night theme';
 
         this.button.icon = './icons/half-moon.svg';
 
@@ -30,7 +30,7 @@ Button.prototype =
     },
     uncheck: function()
     {
-        this.button.label = 'Enable night theme',
+        this.button.label = 'Enable night theme';
 
         this.button.icon = './icons/sunny-day.svg';
 
